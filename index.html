@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>iNostalgia.me</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="background:black; color:white; text-align:center;">
-  <h1>iNostalgia.me</h1>
-  <p>BETA</p>
+<body>
+
+  <div class="scene">
+    <h1 id="studioText">iNostalgia.me</h1>
+    <p class="beta">BETA</p>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="inputText" placeholder="Enter studio name">
+    <button onclick="updateText()">Preview</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
