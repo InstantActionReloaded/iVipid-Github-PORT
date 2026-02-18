@@ -1,2 +1,2 @@
-# iNostalgia
-An vipid.me inspired reprository.
+# iVipID GitHub PORT
+A port of iVipID.
